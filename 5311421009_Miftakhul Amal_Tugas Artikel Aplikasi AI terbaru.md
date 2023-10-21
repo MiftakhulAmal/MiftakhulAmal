@@ -9,10 +9,13 @@ Untuk mengembangkan sistem pemantauan kebakaran hutan berbasis AI, dapat digunak
 Dampak terhadap masyarakat 
 Sistem pemantauan kebakaran hutan berbasis AI dapat memberikan dampak positif bagi masyarakat, antara lain: 
 1. Peningkatan keselamatan 
-Sistem pemantauan kebakaran hutan berbasis AI AI AI dapat membantu mencegah dan mengendalikan kebakaran hutan. Melalui sistem ini, kebakaran hutan dapat dideteksi dengan cepat sehingga  mencegah  kerusakan lingkungan dan kesehatan manusia. 
-2. Peningkatan efisiensi Sistem pemantauan kebakaran hutan berbasis AI 
- dapat meningkatkan efisiensi pengendalian kebakaran hutan. Melalui sistem ini, informasi mengenai kondisi hutan dapat dikumpulkan secara real time untuk mempercepat proses pengendalian kebakaran hutan. 
+
+Sistem pemantauan kebakaran hutan berbasis AI dapat membantu mencegah dan mengendalikan kebakaran hutan. Melalui sistem ini, kebakaran hutan dapat dideteksi dengan cepat sehingga  mencegah  kerusakan lingkungan dan kesehatan manusia. 
+2. Peningkatan efisiensi 
+
+Sistem pemantauan kebakaran hutan berbasis AI dapat meningkatkan efisiensi pengendalian kebakaran hutan. Melalui sistem ini, informasi mengenai kondisi hutan dapat dikumpulkan secara real time untuk mempercepat proses pengendalian kebakaran hutan. 
 3. Perlindungan lingkungan 
+
 Sistem pemantauan kebakaran hutan berbasis AI dapat membantu melindungi lingkungan. Berkat sistem ini, kebakaran hutan dapat dideteksi sejak dini untuk menghindari kerusakan ekosistem yang membutuhkan waktu lama untuk pulih.
 
 Namun penggunaan teknologi penginderaan jauh dan AI juga mempunyai dampak negatif seperti biaya  tinggi dan keterbatasan teknologi. Oleh karena itu, perlu adanya regulasi dan etika dalam penggunaan teknologi penginderaan jauh dan AI untuk memastikan  teknologi tersebut digunakan untuk tujuan yang benar dan tidak merugikan masyarakat. 
