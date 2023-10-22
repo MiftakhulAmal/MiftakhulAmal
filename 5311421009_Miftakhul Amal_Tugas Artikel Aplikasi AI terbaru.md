@@ -1,6 +1,6 @@
 Sistem Pemantauan Kebakaran Hutan Berbasis AI
 
-Kecerdasan buatan (AI) merupakan teknologi yang terus berkembang dan banyak digunakan dalam kehidupan sehari-hari. AI dapat membantu manusia menyelesaikan tugas-tugas yang memakan waktu dan sulit, serta memajukan berbagai bidang seperti pendidikan, layanan kesehatan, ketahanan pangan, dan teknologi. Pada artikel ini, akan membahas penerapan AI terkini, metode dan teknik yang digunakan, serta dampaknya terhadap masyarakat. 
+Kecerdasan buatan (AI) merupakan teknologi yang terus berkembang dan banyak digunakan dalam kehidupan sehari-hari. AI dapat membantu manusia menyelesaikan tugas-tugas yang memakan waktu dan sulit, serta memajukan berbagai bidang seperti pendidikan, layanan kesehatan, dan teknologi. Pada artikel ini, akan membahas penerapan AI terkini, metode dan teknik yang digunakan, serta dampaknya terhadap masyarakat. 
 
 Aplikasi AI Terbaru 
 Salah satu aplikasi AI terkini adalah sistem pemantauan kebakaran hutan berbasis AI. Sistem ini menggunakan teknologi kecerdasan buatan (AI) untuk memantau dan mendeteksi dini kebakaran hutan. Sistem ini dapat membantu mencegah dan mengendalikan kebakaran hutan dengan memberikan informasi kondisi hutan secara akurat dan real-time. 
