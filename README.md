@@ -143,8 +143,10 @@ Class ini mewakili ruang pencarian 8-Puzzle. Ini berisi aturan dan operasi yang 
 
 Algoritma A* digunakan dalam class EightPuzzleSearch untuk mencari solusi dengan menghitung nilai biaya f(n) dari setiap simpul, yang merupakan penjumlahan biaya sejauh ini (g(n)) dan estimasi biaya ke tujuan (h(n)) berdasarkan heuristik yang digunakan.
 
-Hasil Simulasi Praktek :
- 
+Hasil Simulasi Praktek : 
+
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/soal%201.png?raw=true)
+
 2.	Ubahlah initial dan goal state dari program  di atas sehingga bentuk initial dan goal statenya Gambar 8. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal state. Analisa dan bedakan dengan solusi pada point 1.
 
 Untuk menentukan langkah-langkah yang diperlukan agar puzzle mencapai goal state, dapat melakukan pencarian solusi dengan menggunakan algoritma pencarian seperti A* (A star) yang telah diimplementasikan dalam kode program EightPuzzleSearch di atas. Algoritma A* adalah salah satu algoritma pencarian yang digunakan untuk menemukan solusi terpendek dari sebuah masalah.
