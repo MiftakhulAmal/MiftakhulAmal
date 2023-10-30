@@ -24,6 +24,7 @@ Hasil ini didapatkan dengan mengikuti langkah-langkah berikut dalam algoritma BF
 Jadi, dengan menggunakan algoritma BFS, kita berhasil menentukan jarak dari node n3 ke node 8, 6, dan 7 sesuai dengan `distance` yang ditunjukkan dalam hasil yang Anda berikan.
 
 Hasil Praktek Simulasi :
+
  
 2.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.4 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 5.
    
@@ -50,36 +51,48 @@ Jadi, algoritma BFS menemukan node 5 (dan node-node lainnya) dengan mengikuti la
 Hasil Praktek Simulasi :
  
 
-3.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. 
-Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
+3.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
+   
 Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili oleh adjacency list. Algoritma ini mencari node-node yang dapat dijangkau dari node awal (n1) dalam urutan yang mempertahankan tingkat jarak dari node awal. Untuk menentukan bagaimana algoritma BFS dapat menemukan node 9, kita dapat melihat langkah-langkah berikut:
+
 •	Awalnya, semua node diatur sebagai berwarna putih (WHITE), yang berarti mereka belum dijelajahi, jaraknya tak terbatas (Integer.MAX_VALUE), dan belum memiliki predecesor.
+
 •	Algoritma dimulai dari node awal, yaitu n1. Node n1 diubah menjadi warna abu-abu (GRAY) yang menunjukkan bahwa sedang dalam proses penjelajahan, jaraknya diatur menjadi 0, dan predecesor diatur menjadi null.
+
 •	Node n1 kemudian dimasukkan ke dalam antrian (queue) `q` untuk diteruskan.
+
 •	Algoritma melanjutkan dengan mengeluarkan node n1 dari antrian. Kemudian, itu memeriksa tetangga-tetangga dari n1 yang belum dieksplorasi. Dalam kasus ini, n1 memiliki tiga tetangga yang belum dijelajahi, yaitu n2, n3, dan n4.
+
 •	Node n2, n3, dan n4 dimasukkan ke dalam antrian dan diubah menjadi warna abu-abu. Jarak mereka diperbarui sesuai dengan jarak dari n1 ditambah 1, sehingga menjadi 1. Predecesor mereka diatur sebagai n1.
+
 •	Algoritma kemudian melanjutkan dengan mengunjungi tetangga-tetangga n2, n3, dan n4 dan seterusnya hingga semua node yang dapat dijangkau telah dijelajahi.
+
 •	Node 9 ditemukan setelah melewati node 5 dalam urutan yang mempertahankan jarak minimum. Node 9 ditemukan dengan jarak 3 dari node awal (n1).
 
 Jadi, algoritma BFS menemukan node 9 dengan mengikuti langkah-langkah penjelajahan dari node awal (n1) sesuai dengan tingkat jarak.
+
 Hasil Praktek Simulasi :
  
-4.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. 
-Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
+4.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
+   
 Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili oleh adjacency list. Algoritma ini mencari node-node yang dapat dijangkau dari node awal (n6) dalam urutan yang mempertahankan tingkat jarak dari node awal. Untuk menentukan bagaimana algoritma BFS dapat menemukan node 3, kita dapat melihat langkah-langkah berikut:
+
 •	Awalnya, semua node diatur sebagai berwarna putih (WHITE), yang berarti mereka belum dijelajahi, jaraknya tak terbatas (Integer.MAX_VALUE), dan belum memiliki predecesor.
+
 •	Algoritma dimulai dari node awal, yaitu n6. Node n6 diubah menjadi warna abu-abu (GRAY) yang menunjukkan bahwa sedang dalam proses penjelajahan, jaraknya diatur menjadi 0, dan predecesor diatur menjadi null.
+
 •	Node n6 kemudian dimasukkan ke dalam antrian (queue) `q` untuk diteruskan.
+
 •	Algoritma melanjutkan dengan mengeluarkan node n6 dari antrian. Kemudian, itu memeriksa tetangga-tetangga dari n6 yang belum dieksplorasi. Dalam kasus ini, n6 memiliki dua tetangga yang belum dijelajahi, yaitu n2 dan n7.
+
 •	Node n2 dan n7 dimasukkan ke dalam antrian dan diubah menjadi warna abu-abu. Jarak mereka diperbarui sesuai dengan jarak dari n6 ditambah 1, sehingga menjadi 1. Predecesor mereka diatur sebagai n6.
+
 •	Algoritma kemudian melanjutkan dengan mengunjungi tetangga-tetangga n2 dan n7 dan seterusnya hingga semua node yang dapat dijangkau telah dijelajahi.
 
 Node 3 ditemukan setelah melewati node 4 dalam urutan yang mempertahankan jarak minimum. Node 3 ditemukan dengan jarak 3 dari node awal (n6). Jadi, algoritma BFS menemukan node 3 dengan mengikuti langkah-langkah penjelajahan dari node awal (n6) sesuai dengan tingkat jarak.
+
 Hasil Praktek Simulasi : 
  
-
-
-
 
 
 
