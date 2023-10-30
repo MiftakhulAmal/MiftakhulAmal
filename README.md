@@ -1,6 +1,7 @@
 ANALISIS PRAKTEK MODUL 4
 
 1.	Tentukan bagaimana algoritma BFS di atas dapat menentukan node ke 8, 6, dan 7
+   
        Algoritma BFS (Breadth-First Search) digunakan dalam kode di atas untuk menjelajahi graf berdasarkan tingkat jarak (level) dari node awal (n3) ke node-node lain dalam graf. Untuk menentukan jarak dari node n3 ke node 8, 6, dan 7, kita dapat melihat nilai atribut `distance` dari masing-masing node setelah menjalankan algoritma BFS.
   	
 Dalam hasil yang Anda berikan:
@@ -22,19 +23,26 @@ Hasil ini didapatkan dengan mengikuti langkah-langkah berikut dalam algoritma BF
 
 Jadi, dengan menggunakan algoritma BFS, kita berhasil menentukan jarak dari node n3 ke node 8, 6, dan 7 sesuai dengan `distance` yang ditunjukkan dalam hasil yang Anda berikan.
 
-
 Hasil Praktek Simulasi :
  
-2.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.4 dapat dibentuk. 
-Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 5. 
+2.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.4 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 5.
+   
 Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili oleh adjacency list. Algoritma ini mencari node-node yang dapat dijangkau dari node awal (n1) dalam urutan yang mempertahankan tingkat jarak dari node awal. Untuk menentukan bagaimana algoritma BFS dapat menemukan node 5, kita dapat melihat langkah-langkah berikut:
+
 •	Awalnya, semua node diatur sebagai berwarna putih (WHITE), yang berarti mereka belum dijelajahi, jaraknya tak terbatas (Integer.MAX_VALUE), dan belum memiliki predecesor.
+
 •	Algoritma dimulai dari node awal, yaitu n1. Node n1 diubah menjadi warna abu-abu (GRAY) yang menunjukkan bahwa sedang dalam proses penjelajahan, jaraknya diatur menjadi 0, dan predecesor diatur menjadi null.
+
 •	Node n1 kemudian dimasukkan ke dalam antrian (queue) `q` untuk diteruskan.
+
 •	Algoritma melanjutkan dengan mengeluarkan node n1 dari antrian. Kemudian, itu memeriksa tetangga-tetangga dari n1 yang belum dieksplorasi. Dalam kasus ini, n1 memiliki dua tetangga yang belum dijelajahi, yaitu n2 dan n3.
+
 •	Node n2 dan n3 dimasukkan ke dalam antrian dan diubah menjadi warna abu-abu. Jaraknya diperbarui sesuai dengan jarak dari n1 ditambah 1, sehingga menjadi 1. Predecesor mereka diatur sebagai n1.
+
 •	Algoritma kemudian melanjutkan dengan mengeluarkan n2 dari antrian dan memeriksa tetangga-tetangga n2 yang belum dijelajahi, yaitu n1, n4, dan n5.
+
 •	Node n4 dan n5 dimasukkan ke dalam antrian dan diubah menjadi warna abu-abu dengan jarak masing-masing adalah 2 dan predecesor adalah n2.
+
 •	Algoritma terus berlanjut dengan mengunjungi tetangga-tetangga n3 dan seterusnya hingga semua node yang dapat dijangkau telah dijelajahi.
 
 Jadi, algoritma BFS menemukan node 5 (dan node-node lainnya) dengan mengikuti langkah-langkah penjelajahan dari node awal (n1) sesuai dengan tingkat jarak. Node 5 ditemukan setelah melewati node 1, node 2, dan node 4 dalam urutan yang mempertahankan jarak minimum. Node 5 ditemukan dengan jarak 2 dari node awal.
