@@ -100,9 +100,13 @@ Hasil Praktek Simulasi :
 ANALISIS PRAKTEK MODUL 5
 
 1.	Pelajari class EightPuzzleSearch, EightPuzzleSpace, dan Node.
+   
      Class EightPuzzleSearch merupakan implementasi algoritma pencarian pada masalah 8-Puzzle. Masalah 8-Puzzle adalah masalah permainan papan di mana kita harus menggerakkan ubin-ubin yang teracak pada sebuah papan 3x3 sehingga membentuk pola yang diinginkan. Dalam kasus ini, "0" mewakili ubin kosong yang dapat digerakkan.
+  	
 a.	Class Node:
+
 Class ini digunakan untuk merepresentasikan setiap simpul dalam pohon pencarian. Setiap simpul memiliki atribut sebagai berikut:
+
 •	`state`: Menyimpan konfigurasi papan permainan (dalam bentuk array 1 dimensi).
 •	`cost`: Menyimpan biaya atau nilai g(n) dari simpul ini.
 •	`parent`: Menyimpan referensi ke simpul induk dalam pohon pencarian.
