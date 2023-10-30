@@ -25,7 +25,8 @@ Jadi, dengan menggunakan algoritma BFS, kita berhasil menentukan jarak dari node
 
 Hasil Praktek Simulasi :
 
- 
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Picture1.png?raw=true)
+
 2.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.4 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 5.
    
 Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili oleh adjacency list. Algoritma ini mencari node-node yang dapat dijangkau dari node awal (n1) dalam urutan yang mempertahankan tingkat jarak dari node awal. Untuk menentukan bagaimana algoritma BFS dapat menemukan node 5, kita dapat melihat langkah-langkah berikut:
@@ -49,7 +50,8 @@ Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili
 Jadi, algoritma BFS menemukan node 5 (dan node-node lainnya) dengan mengikuti langkah-langkah penjelajahan dari node awal (n1) sesuai dengan tingkat jarak. Node 5 ditemukan setelah melewati node 1, node 2, dan node 4 dalam urutan yang mempertahankan jarak minimum. Node 5 ditemukan dengan jarak 2 dari node awal.
 
 Hasil Praktek Simulasi :
- 
+
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Picture2.png?raw=true)
 
 3.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
    
@@ -72,6 +74,8 @@ Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili
 Jadi, algoritma BFS menemukan node 9 dengan mengikuti langkah-langkah penjelajahan dari node awal (n1) sesuai dengan tingkat jarak.
 
 Hasil Praktek Simulasi :
+
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Picture3.png?raw=true)
  
 4.	Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
    
@@ -92,6 +96,8 @@ Dalam kode di atas, algoritma BFS digunakan untuk menjelajahi graf yang diwakili
 Node 3 ditemukan setelah melewati node 4 dalam urutan yang mempertahankan jarak minimum. Node 3 ditemukan dengan jarak 3 dari node awal (n6). Jadi, algoritma BFS menemukan node 3 dengan mengikuti langkah-langkah penjelajahan dari node awal (n6) sesuai dengan tingkat jarak.
 
 Hasil Praktek Simulasi : 
+
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Picture4.png?raw=true)
  
 
 
