@@ -111,6 +111,7 @@ Dalam kasus Eight Puzzle, dapat memulai dari initial state (getRoot()) dan menca
 •	Tandai node yang telah diekspansi sebagai sudah ditutup (closed) dan hapus dari open list.
 •	Ulangi langkah 2-6 hingga menemukan goal state atau tidak ada node lagi dalam open list.
 Hasil Praktek Simulasi :
+
 ![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/soal%202.png?raw=true)
 
 3.	Ubahlah initial dan goal state dari program  di atas sehingga bentuk initial dan goal statenya
