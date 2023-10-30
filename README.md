@@ -1,12 +1,15 @@
 ANALISIS PRAKTEK MODUL 4
+
 1.	Tentukan bagaimana algoritma BFS di atas dapat menentukan node ke 8, 6, dan 7
        Algoritma BFS (Breadth-First Search) digunakan dalam kode di atas untuk menjelajahi graf berdasarkan tingkat jarak (level) dari node awal (n3) ke node-node lain dalam graf. Untuk menentukan jarak dari node n3 ke node 8, 6, dan 7, kita dapat melihat nilai atribut `distance` dari masing-masing node setelah menjalankan algoritma BFS.
+  	
 Dalam hasil yang Anda berikan:
 - Node 8 memiliki `distance` 3.
 - Node 6 memiliki `distance` 2.
 - Node 7 memiliki `distance` 3.
 
 Ini berarti bahwa jarak dari node n3 ke node 8 adalah 3, jarak dari node n3 ke node 6 adalah 2, dan jarak dari node n3 ke node 7 adalah 3. Algoritma BFS secara efisien mencari jarak terpendek dalam graf dari node awal ke node-node lainnya.
+
 Hasil ini didapatkan dengan mengikuti langkah-langkah berikut dalam algoritma BFS:
 
 •	Node n3 (awal) memiliki `distance` awal 0, dan kemudian kita menghitung jarak ke node tetangga dari n3 (yaitu n4, n2).
