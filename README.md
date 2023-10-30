@@ -8,8 +8,10 @@ Dalam hasil yang Anda berikan:
 - Node 8 memiliki `distance` 3.
 - Node 6 memiliki `distance` 2.
 - Node 7 memiliki `distance` 3.
+
 Ini berarti bahwa jarak dari node n3 ke node 8 adalah 3, jarak dari node n3 ke node 6 adalah 2, dan jarak dari node n3 ke node 7 adalah 3. Algoritma BFS secara efisien mencari jarak terpendek dalam graf dari node awal ke node-node lainnya.
 Hasil ini didapatkan dengan mengikuti langkah-langkah berikut dalam algoritma BFS:
+
 •	Node n3 (awal) memiliki `distance` awal 0, dan kemudian kita menghitung jarak ke node tetangga dari n3 (yaitu n4, n2).
 •	Node n4 dan n2 memiliki `distance` awal yang ditetapkan sebagai `distance` n3 + 1, yaitu 1.
 •	Kemudian, kita menjelajahi lebih lanjut ke node-node tetangga dari n4 (yaitu n3, n5, n6) dan node tetangga dari n2 (yaitu n1, n3). `distance` dari node-node ini diperbarui sesuai dengan jarak dari node n3 (yang telah diubah) ditambah 1.
