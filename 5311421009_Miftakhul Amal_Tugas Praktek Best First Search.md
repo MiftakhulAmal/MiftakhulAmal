@@ -356,4 +356,13 @@ Dengan kombinasi semua komponen ini, permainan Tic-Tac-Toe dapat berfungsi penuh
 
 Hasil output kode program diatas ketika kedua pemain belum bermain:
 
+![alt text](?raw=true)
+
+Hasil output kode program diatas ketika pemain X menang:
+
+![alt text](?raw=true)
+
+Hasil output kode program diatas ketika pemain O menang:
+
+![alt text](?raw=true)
 
