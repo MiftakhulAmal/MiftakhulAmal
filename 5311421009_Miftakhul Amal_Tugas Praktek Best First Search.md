@@ -367,4 +367,4 @@ Hasil output kode program diatas ketika pemain O menang:
 ![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Screenshot%202023-11-05%20221412.png?raw=true)
 
 Hasil output kode program diatas ketika pemain X dan O imbang:
-![alt text](?raw=true)
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Screenshot%202023-11-05%20222011.png?raw=true)
