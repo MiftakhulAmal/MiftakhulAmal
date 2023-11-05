@@ -35,7 +35,7 @@ GameState {  // to save as "GameState.java"
 
 Penjelasan : Enum `GameState` digunakan dalam permainan Tic-Tac-Toe untuk menggambarkan berbagai status permainan, seperti saat permainan berlangsung (`PLAYING`), berakhir dengan hasil imbang (`DRAW`), dimenangkan oleh pemain "X" (`CROSS_WON`), atau dimenangkan oleh pemain "O" (`NOUGHT_WON`). Ini membantu dalam mengelola dan mengkomunikasikan status permainan secara efisien.
 
-Class Cell.java:
+Class Cell.java :
 
 package tictactoe;
 
@@ -88,7 +88,7 @@ Penjelasan : Ini adalah kelas yang merepresentasikan setiap sel di papan permain
 - 'clear()': Mengosongkan isi sel.
 - 'paint(Graphics g)': Menggambar isi sel berdasarkan enum Seed (kosong, 'X', atau 'O').
   
-Class Board.java:
+Class Board.java :
 
 package tictactoe;
 
@@ -192,7 +192,7 @@ Penjelasan : Ini adalah kelas yang merepresentasikan papan permainan secara kese
 - 'hasWon(Seed seed, int seedRow, int seedCol)': Mengecek apakah pemain dengan Seed tertentu menang setelah menempatkan Seed pada baris dan kolom tertentu.
 - 'paint(Graphics g)': Menggambar papan permainan dan seluruh selnya.
   
-Class GameMain.java:
+Class GameMain.java :
 
 package tictactoe;
 
