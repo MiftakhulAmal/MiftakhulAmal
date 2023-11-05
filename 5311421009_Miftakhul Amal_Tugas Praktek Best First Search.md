@@ -352,4 +352,8 @@ Penjelasan : Ini adalah kelas utama yang mengontrol permainan dan menangani anta
 - Memperbarui keadaan permainan dan menampilkan pesan status seperti "X's Turn," "It's a Draw!", "X Won!", atau "O Won!" pada status bar.
 - Method main() digunakan untuk menjalankan aplikasi permainan Tic-Tac-Toe dengan antarmuka grafis.
 
-Dengan kombinasi semua komponen ini, permainan Tic-Tac-Toe dapat berfungsi penuh dalam Java. Permainan ini memungkinkan dua pemain untuk saling bergantian menempatkan 'X' dan 'O' pada papan, dan menentukan pemenang atau hasil seri berdasarkan aturan Tic-Tac-Toe.
+Dengan kombinasi semua komponen ini, permainan Tic-Tac-Toe dapat berfungsi penuh dalam Java. Permainan ini memungkinkan dua pemain untuk saling bergantian menempatkan 'X' dan 'O' pada papan, dan menentukan pemenang atau hasil seri berdasarkan aturan Tic-Tac-Toe. 
+
+Hasil output kode program diatas ketika kedua pemain belum bermain:
+
+
