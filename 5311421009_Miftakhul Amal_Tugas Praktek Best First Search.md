@@ -1,16 +1,14 @@
-### Hi there 👋
+Miftakhul Amal (5311421009)
 
-<!--
-**MiftakhulAmal/MiftakhulAmal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Dalam praktek Best First Search ini mengimplementasikan permainan Tic-Tac-Toe dalam bahasa pemrograman Java. untuk bisa menjalankan praktek ini dengan membuat folder bernama Tic tac Toe yang didalamnya terdapat 6 file yang masing diberi nama State.Java, Seed.Java, GameState.Java, Cell.Java, Board.Java, dan GameMain.Java seperti dibawah ini :
 
-Here are some ideas to get you started:
+Enumaration State (State.java):
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+package tictactoe;
+
+/**  *  Enumeration for the various states of the game  */ public enum
+State {  // to save as "GameState.java"    
+ PLAYING, DRAW, CROSS_WON, NOUGHT_WON 
+}
+
+Penjelasan : Ini adalah enumerasi yang mendefinisikan berbagai keadaan permainan. Terdapat empat kemungkinan keadaan: PLAYING (permainan sedang berlangsung), DRAW (seri), CROSS_WON (pemain 'X' menang), dan NOUGHT_WON (pemain 'O' menang).
