@@ -2,7 +2,7 @@ Miftakhul Amal (5311421009)
 
 Dalam praktek Best First Search ini diminta untuk mengimplementasikan permainan Tic-Tac-Toe dalam bahasa pemrograman Java. untuk bisa menjalankan praktek ini dengan membuat folder bernama Tic tac Toe yang didalamnya terdapat 6 file yang masing diberi nama State.Java, Seed.Java, GameState.Java, Cell.Java, Board.Java, dan GameMain.Java seperti dibawah ini :
 
-Enumaration State (State.java):
+Enumaration State (State.java) :
 
 package tictactoe;
 
@@ -13,7 +13,7 @@ State {  // to save as "GameState.java"
 
 Penjelasan : Ini adalah enumerasi yang mendefinisikan berbagai keadaan permainan. Terdapat empat kemungkinan keadaan: PLAYING (permainan sedang berlangsung), DRAW (seri), CROSS_WON (pemain 'X' menang), dan NOUGHT_WON (pemain 'O' menang).
 
-Enumaration Seed (Seed.java):
+Enumaration Seed (Seed.java) :
 
 package tictactoe;
 
@@ -24,7 +24,7 @@ package tictactoe;
 
 Penjelasan : Ini adalah enumerasi yang mendefinisikan isi sel di papan permainan. Terdapat tiga kemungkinan isi: EMPTY (kosong), CROSS (simbol 'X'), dan NOUGHT (simbol 'O').
 
-Enumaration GameState (GameState.java):
+Enumaration GameState (GameState.java) :
 
 package tictactoe;
 
