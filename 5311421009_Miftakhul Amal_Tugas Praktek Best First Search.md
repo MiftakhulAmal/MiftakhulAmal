@@ -2,7 +2,7 @@ Miftakhul Amal (5311421009)
 
 Dalam praktek Best First Search ini diminta untuk mengimplementasikan permainan Tic-Tac-Toe dalam bahasa pemrograman Java. untuk bisa menjalankan praktek ini dengan membuat folder bernama Tic tac Toe yang didalamnya terdapat 6 file yang masing diberi nama State.Java, Seed.Java, GameState.Java, Cell.Java, Board.Java, dan GameMain.Java seperti dibawah ini :
 
-Enumaration State (State.java):
+- Enumaration State (State.java):
 
 package tictactoe;
 
@@ -13,7 +13,7 @@ State {  // to save as "GameState.java"
 
 Penjelasan : Ini adalah enumerasi yang mendefinisikan berbagai keadaan permainan. Terdapat empat kemungkinan keadaan: PLAYING (permainan sedang berlangsung), DRAW (seri), CROSS_WON (pemain 'X' menang), dan NOUGHT_WON (pemain 'O' menang).
 
-Enumaration Seed (Seed.java):
+- Enumaration Seed (Seed.java):
 
 package tictactoe;
 
@@ -24,7 +24,7 @@ package tictactoe;
 
 Penjelasan : Ini adalah enumerasi yang mendefinisikan isi sel di papan permainan. Terdapat tiga kemungkinan isi: EMPTY (kosong), CROSS (simbol 'X'), dan NOUGHT (simbol 'O').
 
-Enumaration GameState (GameState.java):
+- Enumaration GameState (GameState.java):
 
 package tictactoe;
 
@@ -35,7 +35,7 @@ GameState {  // to save as "GameState.java"
 
 Penjelasan : Enum `GameState` digunakan dalam permainan Tic-Tac-Toe untuk menggambarkan berbagai status permainan, seperti saat permainan berlangsung (`PLAYING`), berakhir dengan hasil imbang (`DRAW`), dimenangkan oleh pemain "X" (`CROSS_WON`), atau dimenangkan oleh pemain "O" (`NOUGHT_WON`). Ini membantu dalam mengelola dan mengkomunikasikan status permainan secara efisien.
 
-Class Cell.java:
+- Class Cell.java:
 
 package tictactoe;
 
@@ -88,7 +88,7 @@ Penjelasan : Ini adalah kelas yang merepresentasikan setiap sel di papan permain
 - 'clear()': Mengosongkan isi sel.
 - 'paint(Graphics g)': Menggambar isi sel berdasarkan enum Seed (kosong, 'X', atau 'O').
   
-Class Board.java:
+- Class Board.java:
 
 package tictactoe;
 
@@ -192,7 +192,7 @@ Penjelasan : Ini adalah kelas yang merepresentasikan papan permainan secara kese
 - 'hasWon(Seed seed, int seedRow, int seedCol)': Mengecek apakah pemain dengan Seed tertentu menang setelah menempatkan Seed pada baris dan kolom tertentu.
 - 'paint(Graphics g)': Menggambar papan permainan dan seluruh selnya.
   
-Class GameMain.java:
+- Class GameMain.java:
 
 package tictactoe;
 
