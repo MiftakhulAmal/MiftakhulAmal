@@ -356,7 +356,7 @@ Dengan kombinasi semua komponen ini, permainan Tic-Tac-Toe dapat berfungsi penuh
 
 Hasil output kode program diatas ketika kedua pemain belum bermain:
 
-![alt text](?raw=true)
+![alt text](https://github.com/MiftakhulAmal/MiftakhulAmal/blob/main/Screenshot%202023-11-05%20221118.png?raw=true)
 
 Hasil output kode program diatas ketika pemain X menang:
 
