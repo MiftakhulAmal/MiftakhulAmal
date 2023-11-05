@@ -1,6 +1,6 @@
 Miftakhul Amal (5311421009)
 
-Dalam praktek Best First Search ini mengimplementasikan permainan Tic-Tac-Toe dalam bahasa pemrograman Java. untuk bisa menjalankan praktek ini dengan membuat folder bernama Tic tac Toe yang didalamnya terdapat 6 file yang masing diberi nama State.Java, Seed.Java, GameState.Java, Cell.Java, Board.Java, dan GameMain.Java seperti dibawah ini :
+Dalam praktek Best First Search ini diminta untuk mengimplementasikan permainan Tic-Tac-Toe dalam bahasa pemrograman Java. untuk bisa menjalankan praktek ini dengan membuat folder bernama Tic tac Toe yang didalamnya terdapat 6 file yang masing diberi nama State.Java, Seed.Java, GameState.Java, Cell.Java, Board.Java, dan GameMain.Java seperti dibawah ini :
 
 Enumaration State (State.java):
 
